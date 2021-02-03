@@ -13,10 +13,17 @@ replace the default text in each section with your own, including this. -->
 
 <!-- A clear and concise description of the bug. This include a list of reproduction steps. -->
 
-**Additional context:**
+**Expected behavior:**
 
-<!-- Add any other context about the problem here. -->
+<!-- A clear and concise description of what you expected to happen. -->
+
+**Version info:**
 
 - Library version:
 - .NET runtime/SDK version: 
 - OS type and version:
+
+**Additional context:**
+
+<!-- Add any other context about the problem here. -->
+
