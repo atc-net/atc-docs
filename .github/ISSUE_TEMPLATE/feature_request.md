@@ -4,7 +4,6 @@ about: Suggest an idea or enhancement for this project
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 <!-- NOTE: Remove any parts of the template not needed and fill in as needed. -->
