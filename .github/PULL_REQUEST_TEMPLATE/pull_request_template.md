@@ -24,7 +24,7 @@ assignees: '[TODO: add individual repo maintainers here]'
 - [ ] My PR includes changes that are:
     - [ ] Fixes (bug fixes) to existing functionality. No new features or breaking changes included.
     - [ ] New minor features. No breaking changes included.
-    - [ ] Braking changes. Might also include additions.
-- [ ] I have updated the verison in `version.json` to SEMVER rules according changes my PR includes (if necessary).
+    - [ ] Breaking changes. Might also include additions.
+- [ ] I have updated the version in `version.json` to SEMVER rules according changes my PR includes (if necessary).
 - [ ] I have added, updated or removed tests to according to my changes.
   - [ ] All tests passed.
