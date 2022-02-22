@@ -1,45 +1,62 @@
-# Introduction 
+# Introduction
 
-# Design practices 
+The DevOps Playbook, also called Developers Playbook, is for development teams (DevOps teams), onboarding cloud development. This could be either for teams moving existing workloads into the cloud or implementing new ones. A DevOps team is considered to have the full responsibility for the application including the underlying platform services during the full application lifecycle. This is from first idea gathering to operating and monitoring the application in production.
 
-## Well architected framework 
+<em>
+The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications. [Sam Guckenheimer].
+</em>
+<br /><br />
 
-## Agile planning 
+The full 360-degree lifecycle is shown in the following DevOps lifecycle diagram:
 
-# Development practices 
+![DevOps lifecycle](DevOpsLoop.webp "DevOps lifecycle")
 
-## Code quality 
+The Playbook is a collection of proven practices, tips and guidelines for the DevOps team. It is written in the form of Do, Do not, Consider and will as such provide a quick reference for what to do or not in a given area.
 
-### Atc coding rules 
+# [Design Practices](01-design-practices.md)
 
-## Coding rules updater 
+## [Well architected framework](01-design-practices.md#well-architected-framework)
 
-## Source Control 
+## [Agile Planning](01-design-practices.md#agile-planning)
 
-## Code review 
+# [Development practices](02-development-practices.md)
 
-## Testing 
+## [Code quality](02-development-practices.md#code-quality)
 
-## Design for failure 
+### [Atc coding rules](02-development-practices.md#atc-coding-rules)
 
-## Documentation 
+### [Coding rules updater](02-development-practices.md#coding-rules-updater)
 
-## Rest API design 
+## [Source Control](02-development-practices.md#source-control)
 
-### Design first (open API spec. first) 
+## [Code review](02-development-practices.md#code-review)
 
-### Atc generator 
+## [Testing](02-development-practices.md#testing)
 
-# Continuous Integration 
+## [Design for failure](02-development-practices.md#design-for-failure)
 
-# Continuous Delivery 
+## [Documentation](02-development-practices.md#documentation)
 
-## Pipelines 
+## [Rest API design](02-development-practices.md#rest-api-design)
 
-# Infrastructure as Code 
+### [Design first (open API spec. first)](02-development-practices.md#design-first-open-api-spec-first)
 
-## Naming, atc snippets 
+### [Atc generator](02-development-practices.md#atc-generator)
 
-# Monitoring 
+# [Continuous Integration](03-continuous-integration.md)
 
-# Security 
+# [Continuous Delivery](04-continuous-delivery.md)
+
+## [Pipelines](04-continuous-delivery.md#pipelines)
+
+# [Infrastructure as Code (IaC)](05-infrastructure-as-code.md)
+
+## [Naming](05-infrastructure-as-code.md#naming)
+
+## [atc snippets](05-infrastructure-as-code.md#atc-snippets)
+
+## [atc-azure-options](05-infrastructure-as-code.md#atc-azure-options)
+
+# [Monitoring](06-monitoring.md)
+
+# [Security](07-security.md)
