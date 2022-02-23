@@ -60,6 +60,8 @@ The Playbook is a collection of proven practices, tips and guidelines for the De
 
 - ## [Naming](05-infrastructure-as-code.md#naming)
 
+- ## [Organize resources with tags](05-infrastructure-as-code.md#organize-resources-with-tags)
+
 - ## [atc snippets](05-infrastructure-as-code.md#atc-snippets)
 
 - ## [atc-azure-options](05-infrastructure-as-code.md#atc-azure-options)
