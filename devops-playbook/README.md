@@ -7,7 +7,7 @@ The DevOps Playbook, also called Developers Playbook, is for development teams (
 
 The full 360-degree lifecycle is shown in the following DevOps lifecycle diagram:
 
-![DevOps lifecycle](DevOpsLoop.webp "DevOps lifecycle")
+![DevOps lifecycle](images/DevOpsLoop.webp "DevOps lifecycle")
 
 The Playbook is a collection of proven practices, tips and guidelines for the DevOps team. It is written in the form of Do, Do not, Consider and will as such provide a quick reference for what to do or not in a given area.
 <br /><br />
