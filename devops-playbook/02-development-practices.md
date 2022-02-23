@@ -125,6 +125,9 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 
 `TEXT-IS -MISSING`
 
+![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
+
+
 **Unit Testing**
 
 During this first round of testing, the program is submitted to assessments that focus on specific units or components of the software to determine whether each one is fully functional. The main aim of this endeavor is to determine whether the application functions as designed. In this phase, `a unit can refer to a function, individual program or even a procedure`, and a White-box Testing method is usually used to get the job done. One of the biggest benefits of this testing phase is that it can be run every time a piece of code is changed, allowing issues to be resolved as quickly as possible. It’s quite common for software developers to perform unit tests before delivering software to testers for formal testing.
