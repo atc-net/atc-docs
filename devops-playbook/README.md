@@ -38,7 +38,7 @@ The Playbook is a collection of proven practices, tips and guidelines for the De
 
 - ## [Documentation](02-development-practices.md#documentation)
 
-- ## [REST API design](02-development-practices.md#rest-api-design)
+- ## [REST API Design](02-development-practices.md#rest-api-design)
 
   - ### [Design first approach (OpenAPI specification first)](02-development-practices.md#design-first-approach-openapi-specification-first)
 

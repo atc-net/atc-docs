@@ -20,7 +20,7 @@ Benefits of this alignment setup that the ATC-Team endorses are special in:
 
 The ATC coding rules setup is build and based on use of:
 - [.editorconfig](https://editorconfig.org)
-- [Directory.Build.props](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build?view=vs-2022)
+- [Directory.Build.props](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build?view=vs-2022) for .NET projects/solutions
 
 Read more on [ATC coding rules](https://github.com/atc-net/atc-coding-rules).
 <br /><br />
@@ -63,8 +63,18 @@ The main purpose of this application is to create and maintain a project / repos
 `REST` is an acronym for `RE`presentational `S`tate `T`ransfer and an architectural style for `distributed hypermedia systems`.
 
 `API` is the acronym for `A`pplication `P`rogramming `I`nterface, which is a software intermediary that allows two applications to talk to each other.
+<br /><br />
 
-There exist lot of "Best practices for REST API design" on the internet
+
+###  What is API Design?
+Designing (also known as Modeling) your API involves describing all of the inputs and outputs across the footprint of your entire service. Your API design will answer questions like:
+
+- What are the different resources and operations available in your API?
+- How does your API authenticate requests?
+- What are the different data models associated with your service?
+- How does your API handle errors?
+
+There exist lot of "Best practices for REST API design" on the internet.
 <br /><br />
 
 
@@ -93,7 +103,7 @@ Deficiencies that are often seen when using `Code First` approach:
 - Developeres wants to code, but API's is not only about PoC's, and PoC's often have to be moved to production.
 
 Recommended tools for working with OpenAPI specifications:
-- [Stoplight.io](https://stoplight.io/)
+- [Stoplight.io](https://stoplight.io/) and read more about it the [Documentation](https://meta.stoplight.io)
 - [OpenAPI extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi)
 <br /><br />
 
@@ -104,4 +114,6 @@ The [atc-rest-api-generator](https://github.com/atc-net/atc-rest-api-generator) 
 
 The main purpose of this application is to create and maintain a REST-API service based on an OpenAPI specification file. So the consept is the `Design First` approse.
 
-And the `atc-rest-api-generator` should be categorized as a `Rapid Application Development Tool` for REST-API in .NET/C#.
+The `atc-rest-api-generator` should be categorized as a `Rapid Application Development Tool` for REST-API in .NET/C#.
+
+The `atc-rest-api-generator` can also create and maintain a clinet part (as Data Contracts) for the REST-API service. Today client parts could be used from a client written in `C#` or in `Typescript`.
