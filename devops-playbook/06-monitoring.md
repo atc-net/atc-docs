@@ -8,15 +8,15 @@ Monitoring is the act of collecting and analyzing data to determine the performa
 
 `TEXT-IS -MISSING`
 
-- **Do** instrument your cloud application to emit telemetry, using e.g. Application Insights on Azure
-- **Do** provide availability health check endpoints
+- ✔️ **Do** instrument your cloud application to emit telemetry, using e.g. Application Insights on Azure
+- ✔️ **Do** provide availability health check endpoints
     > *Several cloud systems, e.g. Application Insights on Azure can monitor availability through http endpoint probing.*
 
 ## Platform Monitoring
 
 `TEXT-IS -MISSING`
 
-- **Do** use diagnostics tracing / monitoring
+- ✔️ **Do** use diagnostics tracing / monitoring
     > *Use it to get notified about issues early and to take automated actions to resolve them quickly.*
-- **Consider** have alerts on CPU and RAM usage
-- **Consider** monitor scale set / autoscaling
+- 💭 **Consider** have alerts on CPU and RAM usage
+- 💭 **Consider** monitor scale set / autoscaling

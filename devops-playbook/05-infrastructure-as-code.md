@@ -8,8 +8,8 @@
 
 As all resources in cloud environments are required to be globally unique, having naming rules and guidelines in-place becomes essential. The key to success with naming conventions is establishing and following them across your applications and organizations.
 
-- **Do** use abbreviations for long company and system names
-- **Do** have a naming standard in place
+- ✔️ **Do** use abbreviations for long company and system names
+- ✔️ **Do** have a naming standard in place
 
 `TEXT-IS -MISSING`
 
@@ -37,10 +37,10 @@ The tags can be anything that helps identify the category that a specific resour
 |System|Used to define the application or service|
 |Repository/Source|Used to identify where these resources were provisioned from|
 
-- **Do** tag with CostCenter
-- **Do** tag with environment
-- **Do** tag with System
-- **Do** tag with Repository/Source
+- ✔️ **Do** tag with CostCenter
+- ✔️ **Do** tag with environment
+- ✔️ **Do** tag with System
+- ✔️ **Do** tag with Repository/Source
 
 ## atc-snippets
 

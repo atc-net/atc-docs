@@ -8,9 +8,9 @@
 
 ![Characteristics Of Good Quality Code](images/CharacteristicsOfGoodQualityCode.webp "Characteristics Of Good Quality Code")
 
-- **Do** use static code analysis / analyzers
-- **Do** use .editorconfig to enforce formatting and code style conventions to achieve consistent code
-- **Do** use `ATC coding rules`
+- ✔️ **Do** use static code analysis / analyzers
+- ✔️ **Do** use .editorconfig to enforce formatting and code style conventions to achieve consistent code
+- ✔️ **Do** use `ATC coding rules`
 
 ### ATC coding rules
 
@@ -42,17 +42,17 @@ The main purpose of this application is to create and maintain a project / repos
 
 `TEXT-IS -MISSING`
 
-- **Do** have a branching strategy in place
-- **Do** use branching policies to enforce branching strategy
-- **Do** only accept `PR`'s (`P`ull `R`equests) into `main` branch
-- **Do** require associated work item with Pull Requests for traceability
-- **Do** delete branch after merge
-- **Consider** using feature flags when using Trunk-Based development
-- **Consider** using branch name as Pull Request title
-- **Consider** using Trunk-Based development like Release Flow or GitHub Flow
-- **Do not** place binaries under source control. If doing so, be very aware of what those binaries are and the size of them
-- **Do not** squash branch upon completing Pull Requests
-- **Do not** keep secrets in source code
+- ✔️ **Do** have a branching strategy in place
+- ✔️ **Do** use branching policies to enforce branching strategy
+- ✔️ **Do** only accept `PR`'s (`P`ull `R`equests) into `main` branch
+- ✔️ **Do** require associated work item with Pull Requests for traceability
+- ✔️ **Do** delete branch after merge
+- 💭 **Consider** using feature flags when using Trunk-Based development
+- 💭 **Consider** using branch name as Pull Request title
+- 💭 **Consider** using Trunk-Based development like Release Flow or GitHub Flow
+- ❌ **Do not** place binaries under source control. If doing so, be very aware of what those binaries are and the size of them
+- ❌ **Do not** squash branch upon completing Pull Requests
+- ❌ **Do not** keep secrets in source code
 
 ## Git Commits
 
@@ -115,20 +115,19 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 
 `TEXT-IS -MISSING`
 
-- **Do** include the purpose of the Pull Request
+- ✔️ **Do** include the purpose of the Pull Request
     > *This is a spike to explore…This simplifies the display of… This fixes handling of…*
-- **Do** remember that anyone in the company could be reading this Pull Request, so the content and tone may inform people other than those currently participating
-- **Do** @mention individuals/teams that you specifically want to involve in the Pull Request and consider mentioning why
-- **Consider** providing an overview of why the work is taking place
+- ✔️ **Do** remember that anyone in the company could be reading this Pull Request, so the content and tone may inform people other than those currently participating
+- ✔️ **Do** @mention individuals/teams that you specifically want to involve in the Pull Request and consider mentioning why
+- 💭 **Consider** providing an overview of why the work is taking place
     > *Include relevant links; don’t assume familiarity with the history*
-- **Consider** being explicit about what specific feedback you want
+- 💭 **Consider** being explicit about what specific feedback you want
 
 ## The Four Levels of Software Testing
 
 `TEXT-IS -MISSING`
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
-
 
 **Unit Testing**
 
@@ -154,10 +153,10 @@ Traditionally we've tried to "avoid" failure by doing whatever we could to make 
 
 To do this, you must design your services with failure in mind. There are a handful of practices that come to mind; Maximize service availability, self-healing, Isolate the "blast radius" of any single failure and continually prove your system has been designed for failure.
 
-- **Do** design and code for transient faults
+- ✔️ **Do** design and code for transient faults
     > *Use mature libraries like Polly.Net*
-- **Do** instrument your application to emit telemetry
-- **Do** expose health check endpoints to monitor availability
+- ✔️ **Do** instrument your application to emit telemetry
+- ✔️ **Do** expose health check endpoints to monitor availability
 
 ## Documentation
 
@@ -165,13 +164,13 @@ To do this, you must design your services with failure in mind. There are a hand
 
 Keep documentation short and precise and if possible, it should be auto-generated. Part of the documentation is also the traceability between all items/assets. From Idea/requirement to code change, to test, to build and deployed environment.
 
-- **Do** keep documentation, which is versioned with the code as part of the code.
+- ✔️ **Do** keep documentation, which is versioned with the code as part of the code.
     > *This would normally mean keeping the documentation in the same repository as the code*
-- **Do** keep notes related to requirements or other documentation assets as part of the assets themselves
+- ✔️ **Do** keep notes related to requirements or other documentation assets as part of the assets themselves
     > *By having the comments and notes leading to decisions as part of the documentation assets themselves it will help at later stages to document why decisions were taken and will reduce re-work*
-- **Do** use a tool that supports traceability from very first idea/requirement to deployed solution in production environment
+- ✔️ **Do** use a tool that supports traceability from very first idea/requirement to deployed solution in production environment
     > *This will automatically document which changes relate to which requirements and further if the change has been tested and finally to which environments the change has been deployed*
-- **Consider** using tools that can auto-generate documentation of API’s and architecture
+- 💭 **Consider** using tools that can auto-generate documentation of API’s and architecture
     > *This will keep the documentation automatically up-to-date and will lessen the chance of drift between code and documentation*
 
 ## REST API design
@@ -204,13 +203,13 @@ Benefits of this `Design First` approach:
 
 - Empower technical and non-technical stakeholders to create and collaborate on API designs.
 - `Server API` and `Client consumer` should agree around the specification before implementation - this saves time based on:
-    - Single source of truth for the API being designed/implemented/maintained
-    - Enforces the; `think, plan and execute` over `try it out` strategy
-    - Better code documentation when good specifications are made upfront
-    - Gives the possibility for parallel development of API and client(s)
-    - Specification is implementation language independent and as such enables the option for code-generation to a specific language and/or framework.
-    - Enables AGILE development with rapid development when using tools for code-generation
-    - Alot of OpenAPI specification tools already exists on the market
+  - Single source of truth for the API being designed/implemented/maintained
+  - Enforces the; `think, plan and execute` over `try it out` strategy
+  - Better code documentation when good specifications are made upfront
+  - Gives the possibility for parallel development of API and client(s)
+  - Specification is implementation language independent and as such enables the option for code-generation to a specific language and/or framework.
+  - Enables AGILE development with rapid development when using tools for code-generation
+  - Alot of OpenAPI specification tools already exists on the market
 
 Deficiencies that are often seen when using `Code First` approach:
 
