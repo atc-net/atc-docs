@@ -40,9 +40,9 @@ The Playbook is a collection of proven practices, tips and guidelines for the De
 
 - ## [REST API Design](02-development-practices.md#rest-api-design)
 
-  - ### [What is API Design?)](02-development-practices.md#what-is-api-design)
+  - ### [What is API Design?](02-development-practices.md#what-is-api-design)
 
-  - ### [Design first approach (OpenAPI specification)](02-development-practices.md#design-first-approach-openapi-specificatio)
+  - ### [Design first approach (OpenAPI specification)](02-development-practices.md#design-first-approach-openapi-specification)
 
   - ### [ATC REST API Generator CLI Tool](02-development-practices.md#atc-rest-api-generator-cli-tool)
 
