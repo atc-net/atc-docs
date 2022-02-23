@@ -6,6 +6,8 @@
 
 `TEXT-IS -MISSING`
 
+![Characteristics Of Good Quality Code](images/CharacteristicsOfGoodQualityCode.webp "Characteristics Of Good Quality Code")
+
 - **Do** use static code analysis / analyzers
 - **Do** use .editorconfig to enforce formatting and code style conventions to achieve consistent code
 - **Do** use `ATC coding rules`
