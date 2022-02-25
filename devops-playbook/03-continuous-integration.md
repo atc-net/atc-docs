@@ -12,11 +12,11 @@ We do continuous build and testing of code, every time a change is committed.
 
 - ✔️ **Do** have Build definitions as Code (yaml/yml)
     > *The definition is versioned with your code and follows the same branching structure as your code.*
-- ✔️ **Do** having a PR (`P`ull `R`equest) build for PR into main branch
+- ✔️ **Do** have a PR (`P`ull `R`equest) build for PR into main branch
     > *The build should be fast and run all unit tests but do not produce any binaries as output.*
 - ✔️ **Do** publish source symbols
     > *Indexing source code enables you to use your .pdb symbol files to debug an app on a machine other than the one you used to build the app.*
-- 💭 **Consider** enabling continuous code quality like SonarCloud
+- 💭 **Consider** enabling continuous code quality integration like e.g. SonarCloud
     > *SonarCloud provides the capability to not only show health of an application but also to highlight issues newly introduced. With a Quality Gate in place, you can fix the leak and therefore improve code quality systematically.*
 - 💭 **Consider** using WhiteSource Bolt to discover and remediate OSS risk
     > *White Source provides a convenient solution for companies that need to manage their open source assets to ensure license compliance and reduce risk.*
