@@ -1,7 +1,5 @@
 # Infrastructure as Code (IaC)
 
-`TEXT-IS -MISSING`
-
 `I`nfrastructure `a`s `C`ode (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied.
 
 ## Naming
@@ -11,8 +9,6 @@ As all resources in cloud environments are required to be globally unique, havin
 - ✔️ **Do** use abbreviations for long company and system names
 - ✔️ **Do** have a naming standard in place
 
-`TEXT-IS -MISSING`
-
 INPUT:
 
 - restrictions on length of names for different resources and cloud vendors.
@@ -20,8 +16,6 @@ INPUT:
 - Azure: restrictions on having e.g. same resource name for Api, App, Azure Function - all using PaaS service
 
 ## Organize resources with tags
-
-`TEXT-IS -MISSING`
 
 It is paramount to tag provisioned cloud resources as implementing a proper tagging strategy can help organizations gain much better control over and visibility of the resources that are hosted in their cloud vendors.
 
