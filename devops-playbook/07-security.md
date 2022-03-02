@@ -1,7 +1,5 @@
 # Security
 
-`TEXT-IS -MISSING`
-
 - ✔️ **Do** limit the deployment Application   Identity access to resources on the environments
     > *Always follow the Principle of Least Privilege when granting access to resources.*
 - ✔️ **Do** require HTTPS/TLS 1.2 as a minimum

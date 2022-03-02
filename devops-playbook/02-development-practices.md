@@ -1,10 +1,6 @@
 # Development practices
 
-`TEXT-IS -MISSING`
-
 ## Code quality
-
-`TEXT-IS -MISSING`
 
 ![Characteristics Of Good Quality Code](images/CharacteristicsOfGoodQualityCode.webp "Characteristics Of Good Quality Code")
 
@@ -39,8 +35,6 @@ The main purpose of this application is to create and maintain a project / repos
 <br /><br />
 
 ## Source Control
-
-`TEXT-IS -MISSING`
 
 - ✔️ **Do** have a branching strategy in place
 - ✔️ **Do** use branching policies to enforce branching strategy
@@ -113,8 +107,6 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 
 ## Code review
 
-`TEXT-IS -MISSING`
-
 - ✔️ **Do** include the purpose of the Pull Request
     > *This is a spike to explore…This simplifies the display of… This fixes handling of…*
 - ✔️ **Do** remember that anyone in the company could be reading this Pull Request, so the content and tone may inform people other than those currently participating
@@ -124,8 +116,6 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 - 💭 **Consider** being explicit about what specific feedback you want
 
 ## The Four Levels of Software Testing
-
-`TEXT-IS -MISSING`
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
 
@@ -147,8 +137,6 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 
 ## Design for failure
 
-`TEXT-IS -MISSING`
-
 Traditionally we've tried to "avoid" failure by doing whatever we could to make services/components "not fail". We would deploy monolithic "appliances" (hardware or software) and if that appliance failed it was a significant event. As we start to move toward distributed systems, especially Microservices, we find that there are many more points of failure. Microservices are implemented as a collection of services that evolve independently and interact and react to their surrounding environments including the changing of user/customer behaviors, business strategy/direction, system behavior, and even other services. One premise of these types of complex-adaptive systems is the ability to withstand failures and unexpected faults.
 
 To do this, you must design your services with failure in mind. There are a handful of practices that come to mind; Maximize service availability, self-healing, Isolate the "blast radius" of any single failure and continually prove your system has been designed for failure.
@@ -159,8 +147,6 @@ To do this, you must design your services with failure in mind. There are a hand
 - ✔️ **Do** expose health check endpoints to monitor availability
 
 ## Documentation
-
-`TEXT-IS -MISSING`
 
 Keep documentation short and precise and if possible, it should be auto-generated. Part of the documentation is also the traceability between all items/assets. From Idea/requirement to code change, to test, to build and deployed environment.
 

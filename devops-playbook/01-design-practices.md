@@ -1,14 +1,12 @@
 # Design practices
 
-`TEXT-IS -MISSING`
+## Well-architected framework
 
-## Well architected framework
+It can be beneficial to follow well known design principles and and guidelines building IT solutions. The Microsoft well-architected framework consists of a set of guidelines for building Azure cloud solutions. It touches importants areas sush as security, avalibility, resilience and scalability. It also has a range of reference architectures that can help as an inspiration when designing solutions.
 
-`TEXT-IS -MISSING`
+[Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework)
 
 ## Agile planning
-
-`TEXT-IS -MISSING`
 
 Agile Planning is the concept of handling user/customer requirements, changes and error related corrections and be able to prioritize and plan the delivery of these in continuous timeboxed iterations, while supporting team collaboration and continuous learning.
 
