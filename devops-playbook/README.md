@@ -2,7 +2,8 @@
 
 The DevOps Playbook, also called Developers Playbook, is for development teams (DevOps teams), onboarding cloud development. This could be either for teams moving existing workloads into the cloud or implementing new ones. A DevOps team is considered to have the full responsibility for the application including the underlying platform services during the full application lifecycle. This is from first idea gathering to operating and monitoring the application in production.
 
-*The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications. [Sam Guckenheimer].*
+*The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. 
+Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications. [Sam Guckenheimer].*
 <br /><br />
 
 The full 360-degree lifecycle is shown in the following DevOps lifecycle diagram:
