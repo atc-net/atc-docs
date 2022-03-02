@@ -2,7 +2,7 @@
 
 ## Well-architected framework
 
-It can be beneficial to follow well known design principles and and guidelines building IT solutions. The Microsoft well-architected framework consists of a set of guidelines for building Azure cloud solutions. It touches importants areas sush as security, avalibility, resilience and scalability. It also has a range of reference architectures that can help as an inspiration when designing solutions.
+Implementing Azure workloads with a DevOps mindset puts some requirements on the operational side of feature development. This includes aspects like cost control, security, performance, monitoring etc. The Microsoft well-architected framework consists of a set of guidelines for implementing Azure workloads. It touches importants areas sush as security, avalibility, resilience and scalability. It also has a range of reference architectures that can help as an inspiration when designing solutions.
 
 [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework)
 
@@ -23,4 +23,4 @@ When defining Features think weeks of work<br/>
 When defining PBIs think days of work<br/>
 When defining Tasks think hours of work*
 - 💭 **Consider** having sprints (iterations) defined across teams
-    > *So the same taxonomy can be used across teams. If more granular iterations are needed for a team use sub division of the common iterations (like Sprint 1 and Sprint 1\Sprint 1.1 and Sprint 1\Sprint 1.2*
+    > *So the same taxonomy and alignment can be used across teams. If more granular (shorter) iterations are needed for a team use sub division of the common iterations (like Sprint 1 and Sprint 1\Sprint 1.1 and Sprint 1\Sprint 1.2. This could be further exmplified; if two weeks sprints are used, use W2, W4, W6 etc as the common sprints and W2\W2.1 and W2\W2.2 for the team using one week sprints*

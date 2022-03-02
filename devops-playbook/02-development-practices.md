@@ -1,6 +1,10 @@
 # Development practices
 
+Development practices range from practices around writing readable, structured, testable and maintainable code, which has got the (just/right/necessary level of documentation to following processes ensuring code review and knowledge sharing and identifying areas, that can be automated. The following sections describes these areas and practices.
+
 ## Code quality
+
+The term 'quality code' might bring up different views from different parties. It can be evaluated and discussed (to obtain consensus) though, based on some characteristics depicted below. Following a set of common coding rules and using analyzers to guide this behaviour helps keeping a homogeneous code base.
 
 ![Characteristics Of Good Quality Code](images/CharacteristicsOfGoodQualityCode.webp "Characteristics Of Good Quality Code")
 
