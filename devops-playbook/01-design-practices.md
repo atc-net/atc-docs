@@ -8,8 +8,6 @@
 
 ## Agile planning
 
-`TEXT-IS -MISSING`
-
 Agile Planning is the concept of handling user/customer requirements, changes and error related corrections and be able to prioritize and plan the delivery of these in continuous timeboxed iterations, while supporting team collaboration and continuous learning.
 
 - ✔️ **Do** use an agile planning tool, that is integrated with the rest of the DevOps tools
@@ -25,4 +23,4 @@ When defining Features think weeks of work<br/>
 When defining PBIs think days of work<br/>
 When defining Tasks think hours of work*
 - 💭 **Consider** having sprints (iterations) defined across teams
-    > *So the same taxonomy can be used across teams. If more granular iterations are needed for a team use sub division of the common iterations (like Sprint 1 and Sprint 1\Sprint 1.1 and Sprint 1\Sprint 1.2*
+    > *So the same taxonomy and alignment can be used across teams. If more granular (shorter) iterations are needed for a team use sub division of the common iterations (like Sprint 1 and Sprint 1\Sprint 1.1 and Sprint 1\Sprint 1.2. This could be further exmplified; if two weeks sprints are used, use W2, W4, W6 etc as the common sprints and W2\W2.1 and W2\W2.2 for the team using one week sprints*
