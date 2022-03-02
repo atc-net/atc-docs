@@ -1,10 +1,10 @@
 # Development practices
 
-`TEXT-IS -MISSING`
+Development practices range from practices around writing readable, structured, testable and maintainable code, which has got the (just/right/necessary level of documentation to following processes ensuring code review and knowledge sharing and identifying areas, that can be automated. The following sections describes these areas and practices.
 
 ## Code quality
 
-`TEXT-IS -MISSING`
+The term 'quality code' might bring up different views from different parties. It can be evaluated and discussed (to obtain consensus) though, based on some characteristics depicted below. Following a set of common coding rules and using analyzers to guide this behaviour helps keeping a homogeneous code base.
 
 ![Characteristics Of Good Quality Code](images/CharacteristicsOfGoodQualityCode.webp "Characteristics Of Good Quality Code")
 
@@ -41,7 +41,7 @@ The main purpose of this application is to create and maintain a project / repos
 
 ## Source Control
 
-`TEXT-IS -MISSING`
+GIT is the defacto standard system for source code version control and is well integrated into development environments supporting cloud development. It has been choosen as THE source control system and the following practices is centered around this.
 
 - ✔️ **Do** have a branching strategy in place
 - ✔️ **Do** use branching policies to enforce branching strategy
@@ -136,8 +136,6 @@ style: Remove empty line
 
 ## Code review
 
-`TEXT-IS -MISSING`
-
 - ✔️ **Do** include the purpose of the Pull Request
     > *This is a spike to explore…This simplifies the display of… This fixes handling of…*
 - ✔️ **Do** remember that anyone in the company could be reading this Pull Request, so the content and tone may inform people other than those currently participating
@@ -148,7 +146,7 @@ style: Remove empty line
 
 ## The Four Levels of Software Testing
 
-`TEXT-IS -MISSING`
+The following describes different types or levels of functional testing. It doesn't describe other areas of testing like security testing, penetrationn testing or performance testing. Unit testing and integration testing is regarded an integral part of the normal feature development and should be automated and included in the build and deployment pipelines (CI/CD).
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
 
@@ -170,8 +168,6 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 
 ## Design for failure
 
-`TEXT-IS -MISSING`
-
 Traditionally we've tried to "avoid" failure by doing whatever we could to make services/components "not fail". We would deploy monolithic "appliances" (hardware or software) and if that appliance failed it was a significant event. As we start to move toward distributed systems, especially Microservices, we find that there are many more points of failure. Microservices are implemented as a collection of services that evolve independently and interact and react to their surrounding environments including the changing of user/customer behaviors, business strategy/direction, system behavior, and even other services. One premise of these types of complex-adaptive systems is the ability to withstand failures and unexpected faults.
 
 To do this, you must design your services with failure in mind. There are a handful of practices that come to mind; Maximize service availability, self-healing, Isolate the "blast radius" of any single failure and continually prove your system has been designed for failure.
@@ -182,8 +178,6 @@ To do this, you must design your services with failure in mind. There are a hand
 - ✔️ **Do** expose health check endpoints to monitor availability
 
 ## Documentation
-
-`TEXT-IS -MISSING`
 
 Keep documentation short and precise and if possible, it should be auto-generated. Part of the documentation is also the traceability between all items/assets. From Idea/requirement to code change, to test, to build and deployed environment.
 

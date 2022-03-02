@@ -1,13 +1,10 @@
 # Design practices
 
-'TODO: Add Design practices'
+## Well-architected framework
 
-## Well architected framework
+Implementing Azure workloads with a DevOps mindset puts some requirements on the operational side of feature development. This includes aspects like cost control, security, performance, monitoring etc. The Microsoft well-architected framework consists of a set of guidelines for implementing Azure workloads. It touches importants areas sush as security, avalibility, resilience and scalability. It also has a range of reference architectures that can help as an inspiration when designing solutions.
 
-Implementing Azure workloads with a DevOps mindset puts some requirements on the operational side of feature development. This includes aspects like cost control, security, performance, monitoring etc.
-
-Look for guidance and inspiration at:
-[https://docs.microsoft.com/en-us/azure/architecture/framework](https://docs.microsoft.com/en-us/azure/architecture/framework)
+[Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework)
 
 ## Agile planning
 

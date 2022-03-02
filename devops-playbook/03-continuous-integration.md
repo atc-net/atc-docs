@@ -1,12 +1,8 @@
 # Continuous Integration
 
-`TEXT-IS -MISSING`
-
 `C`ontinuous `I`ntegration (CI) is the process of automating the build and testing of code every time a team member commits changes to version control. CI encourages developers to share their code and unit tests by merging their changes into a shared version control repository after every small task completion. Committing code triggers an automated build system to grab the latest code from the shared repository and to build, test, and validate the full main branch.
 
 ## Automated Build
-
-`TEXT-IS -MISSING`
 
 We do continuous build and testing of code, every time a change is committed.
 
@@ -24,8 +20,6 @@ We do continuous build and testing of code, every time a change is committed.
     > *Use a release pipeline instead for a reliable and controlled delivery process.*
 
 ## Automated Build Tests
-
-`TEXT-IS -MISSING`
 
 Automated testing enables developers to make changes, refactor, and add features to existing code bases with confidence, knowing that they’re not about to completely break existing code.
 
