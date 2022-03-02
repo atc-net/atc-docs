@@ -1,10 +1,13 @@
 # Design practices
 
-`TEXT-IS -MISSING`
+'TODO: Add Design practices'
 
 ## Well architected framework
 
-`TEXT-IS -MISSING`
+Implementing Azure workloads with a DevOps mindset puts some requirements on the operational side of feature development. This includes aspects like cost control, security, performance, monitoring etc.
+
+Look for guidance and inspiration at:
+https://docs.microsoft.com/en-us/azure/architecture/framework/ 
 
 ## Agile planning
 
