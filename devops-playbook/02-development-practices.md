@@ -113,8 +113,6 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 
 ## Code review
 
-`TEXT-IS -MISSING`
-
 - ✔️ **Do** include the purpose of the Pull Request
     > *This is a spike to explore…This simplifies the display of… This fixes handling of…*
 - ✔️ **Do** remember that anyone in the company could be reading this Pull Request, so the content and tone may inform people other than those currently participating
@@ -125,7 +123,7 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 
 ## The Four Levels of Software Testing
 
-`TEXT-IS -MISSING`
+The following describes different types or levels of functional testing. It doesn't describe other areas of testing like security testing, penetrationn testing or performance testing. Unit testing and integration testing is regarded an integral part of the normal feature development and should be automated and included in the build and deployment pipelines (CI/CD).
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
 
