@@ -4,9 +4,9 @@ The DevOps Playbook, also called Developers Playbook, is for development teams (
 
 *The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. 
 Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications. [Sam Guckenheimer].*
-<br /><br />
+<br />
 
-And to take this one step further, it is not only bringing dev and ops people together, but fully removing the distinguishment and have everybody in the team have dev and ops focus, skills and assignments.
+And to take this one step further, it is not only bringing dev and ops people together, but fully removing the distinguishment and have everybody in the team have dev and ops focus, skills and assignments.<br />
 
 The full 360-degree lifecycle is shown in the following DevOps lifecycle diagram:
 
