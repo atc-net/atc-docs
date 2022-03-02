@@ -1,6 +1,6 @@
 # Development practices
 
-`TEXT-IS -MISSING`
+Development practices range from practices around writing readable, structured, testable and maintainable code, which has got the (just/right/necessary level of documentation to following processes ensuring code review and knowledge sharing and identifying areas, that can be automated. The following sections describes these areas and practices.
 
 ## Code quality
 
