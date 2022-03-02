@@ -38,14 +38,16 @@ The tags can be anything that helps identify the category that a specific resour
 |Repository/Source|Used to identify where these resources were provisioned from|
 
 - ✔️ **Do** tag with CostCenter
-- ✔️ **Do** tag with environment
+- ✔️ **Do** tag with Environment
 - ✔️ **Do** tag with System
 - ✔️ **Do** tag with Repository/Source
 
 ## atc-snippets
 
-`TEXT-IS -MISSING`
+When working with IaC - `atc-snippets` come to the rescue for rapid scripting of deployment scripts or templates.
+
+`atc-snippets` contains lot of script and template parts that can be combined or used directly with just inserting some project specific parameters.
 
 ## atc-azure-options
 
-`TEXT-IS -MISSING`
+When working with IaC and `atc-snippets` togheter with some .NET code that use `appsettings.json`. Then the binding/mapping for json to code can be help by `atc-azure-options`. It contains binding-models and configuration method's to help with the setup in a App-type ConfigureServices part.

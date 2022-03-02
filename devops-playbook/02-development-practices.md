@@ -11,6 +11,7 @@
 - ✔️ **Do** use static code analysis / analyzers
 - ✔️ **Do** use .editorconfig to enforce formatting and code style conventions to achieve consistent code
 - ✔️ **Do** use `ATC coding rules`
+<br /><br />
 
 ### ATC coding rules
 
@@ -74,17 +75,19 @@ A properly formed Git commit subject line should always be able to complete the 
 
 Must be one of the following:
 
-- `build` - Build related changes
-- `ci` - CI related changes
-- `chore` - Build process or auxiliary tool - changes
-- `docs` - Documentation only changes
-- `feat` - A new feature
-- `fix` - A bug fix
-- `perf` - A code change that improves performance
-- `refactor` - A code change that neither fixes a - bug or adds a feature
-- `revert` - Reverting things
-- `style` - Markup, white-space, formatting, - missing semi-colons...
-- `test` - Adding missing tests
+|Type|Meaning|
+|-|-|
+| **`build:`**    | Build related changes |
+| **`ci:`**       | CI related changes |
+| **`chore:`**    | Build process or auxiliary tool - changes |
+| **`docs:`**     | Documentation only changes |
+| **`feat:`**     | A new feature |
+| **`fix:`**      | A bug fix |
+| **`perf:`**     | A code change that improves performance |
+| **`refactor:`** | A code change that neither fixes a - bug or adds a feature|
+| **`revert:`**   | Reverting things|
+| **`style:`**    | Markup, white-space, formatting, - missing semi-colons... |
+| **`test:`**     | Adding missing tests |
 
 **Scope**
 
@@ -110,6 +113,26 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 - Use the imperative mood in the subject line
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
+
+**Examples**
+
+```text
+feat(shopping cart): Add the amazing button
+```
+
+```text
+feat(api account): Add update endpoint
+```
+
+```text
+fix: Add missing parameter to service call
+
+The error occurred because of <reasons>.
+```
+
+```text
+style: Remove empty line
+```
 
 ## Code review
 
