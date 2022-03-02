@@ -40,7 +40,7 @@ The main purpose of this application is to create and maintain a project / repos
 
 ## Source Control
 
-`TEXT-IS -MISSING`
+GIT is the defacto standard system for source code version control and is well integrated into development environments supporting cloud development. It has been choosen as THE source control system and the following practices is centered around this.
 
 - ✔️ **Do** have a branching strategy in place
 - ✔️ **Do** use branching policies to enforce branching strategy
