@@ -40,6 +40,8 @@ The main purpose of this application is to create and maintain a project / repos
 
 ## Source Control
 
+GIT is the defacto standard system for source code version control and is well integrated into development environments supporting cloud development. It has been choosen as THE source control system and the following practices is centered around this.
+
 - ✔️ **Do** have a branching strategy in place
 - ✔️ **Do** use branching policies to enforce branching strategy
 - ✔️ **Do** only accept `PR`'s (`P`ull `R`equests) into `main` branch
@@ -120,6 +122,8 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 - 💭 **Consider** being explicit about what specific feedback you want
 
 ## The Four Levels of Software Testing
+
+The following describes different types or levels of functional testing. It doesn't describe other areas of testing like security testing, penetrationn testing or performance testing. Unit testing and integration testing is regarded an integral part of the normal feature development and should be automated and included in the build and deployment pipelines (CI/CD).
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
 
