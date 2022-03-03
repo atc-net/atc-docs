@@ -23,7 +23,7 @@ The tags can be anything that helps identify the category that a specific resour
 - ✔️ **Do** tag with System
 - ✔️ **Do** tag with Repository/Source
 
-**Examples of tags**
+### Examples of tags
 
 |Tag|Meaning|
 |---|---|
