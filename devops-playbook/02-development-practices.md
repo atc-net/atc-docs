@@ -61,7 +61,7 @@ A properly formed Git commit subject line should always be able to complete the 
 
 *If applied, this commit will &lt;your subject line here&gt;*
 
-**Commit Samples**
+### Commit Samples
 
 ```powershell
 [type](optional scope): [subject]
@@ -71,7 +71,7 @@ A properly formed Git commit subject line should always be able to complete the 
 [optional footer]
 ```
 
-**Types**
+### **Types**
 
 Must be one of the following:
 
@@ -89,22 +89,22 @@ Must be one of the following:
 | **`style:`**    | Markup, white-space, formatting, - missing semi-colons... |
 | **`test:`**     | Adding missing tests |
 
-**Scope**
+### Scope
 
 A scope may be provided to a commit’s type, to provide additional contextual information and is contained within parenthesis, *e.g., feat(parser): add the ability to parse arrays.*
 
-**Subject**
+### Subject
 
 The subject contains a succinct description of the change:
 
 - Use the imperative, present tense: "change" not "changed" nor "changes"
 - No dot (.) at the end.
 
-**Body**
+### Body
 
 Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
 
-**The 7 rules of a great commit message:**
+### **The 7 rules of a great commit message**
 
 - Separate subject from the body with a blank line
 - Limit the subject line to 50 characters
@@ -114,7 +114,7 @@ Just as in the subject, use the imperative, present tense: "change" not "changed
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
 
-**Examples**
+### **Examples:**
 
 ```text
 feat(shopping cart): Add the amazing button
@@ -150,19 +150,19 @@ The following describes different types or levels of functional testing. It does
 
 ![The Four Levels of Software Testing](images/LevelsOfTesting.webp "The Four Levels of Software Testing")
 
-**Unit Testing**
+### **Unit Testing**
 
 During this first round of testing, the program is submitted to assessments that focus on specific units or components of the software to determine whether each one is fully functional. The main aim of this endeavor is to determine whether the application functions as designed. In this phase, `a unit can refer to a function, individual program or even a procedure`, and a White-box Testing method is usually used to get the job done. One of the biggest benefits of this testing phase is that it can be run every time a piece of code is changed, allowing issues to be resolved as quickly as possible. It’s quite common for software developers to perform unit tests before delivering software to testers for formal testing.
 
-**Integration Testing**
+### **Integration Testing**
 
 Integration testing allows individuals the opportunity to combine all of the units within a program and test them as a group. This testing level is designed to `find interface defects between the modules/functions`. This is particularly beneficial because it determines how efficiently the units are running together. Keep in mind that no matter how efficiently each unit is running, if they aren’t properly integrated, it will affect the functionality of the software program. In order to run these types of tests, individuals can make use of various testing methods, but the specific method that will be used to get the job done will depend greatly on the way in which the units are defined.
 
-**System Testing**
+### **System Testing**
 
 System testing is the first level in which `the complete application is tested as a whole`. The goal at this level is to evaluate whether the system has complied with all of the outlined requirements and to see that it meets Quality Standards. System testing is undertaken by independent testers who haven’t played a role in developing the program. This testing is performed in an environment that closely mirrors production. System Testing is very important because it verifies that the application meets the technical, functional, and business requirements that were set by the customer.
 
-**Acceptance Testing**
+### **Acceptance Testing**
 
 The final level, Acceptance testing (or User Acceptance Testing), is conducted to `determine whether the system is ready for release`. During the Software development life cycle, requirements changes can sometimes be misinterpreted in a fashion that does not meet the intended needs of the users. During this final phase, the user will test the system to find out whether the application meets their business’ needs. Once this process has been completed and the software has passed, the program will then be delivered to production.
 

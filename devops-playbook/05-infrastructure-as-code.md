@@ -21,10 +21,10 @@ It is paramount to tag provisioned cloud resources as implementing a proper tagg
 
 The tags can be anything that helps identify the category that a specific resource belongs to. For example, you can add environment-related tags to VMs to determine whether the machine belongs to the test, QA, or production environment.
 
-**Examples of tags**
+### **Examples of tags**
 
 |Tag|Meaning|
-|-|-|
+|---|---|
 |CostCenter|Identifies the department responsible for paying for these resources|
 |Owner|Who owns the resource|
 |Env|Used to identify the environment type|
