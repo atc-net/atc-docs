@@ -8,12 +8,9 @@ As all resources in cloud environments are required to be globally unique, havin
 
 - ✔️ **Do** use abbreviations for long company and system names
 - ✔️ **Do** have a naming standard in place
-
-INPUT:
-
-- restrictions on length of names for different resources and cloud vendors.
-- restrictions within the customer you are currently working on
-- Azure: restrictions on having e.g. same resource name for Api, App, Azure Function - all using PaaS service
+- 💭 **Consider** if the customer in question have some standard that needs to be enforced
+- 💭 **Consider** the length of names for the different resources as different cloud vendors have different restrictions for this
+- 💭 **Consider** the naming of services, which are utilizing the same base cloud service, e.g. in Azure its not possible to have the same resource name for Api, App, Azure Function - all using PaaS service - if hosted in the same resourcegroup, then they will be deployed into the same instance.
 
 ## Organize resources with tags
 
@@ -38,10 +35,10 @@ The tags can be anything that helps identify the category that a specific resour
 
 ## atc-snippets
 
-When working with IaC - `atc-snippets` come to the rescue for rapid scripting of deployment scripts or templates.
+When working with IaC - `Atc.Snippets` comes to the rescue for rapid scripting of deployment scripts or templates.
 
-`atc-snippets` contains lot of script and template parts that can be combined or used directly with just inserting some project specific parameters.
+`Atc.Snippets` contains alot of script and template parts that can be combined or used directly. They only require inserting some project specific parameters and naming options.
 
 ## atc-azure-options
 
-When working with IaC and `atc-snippets` togheter with some .NET code that use `appsettings.json`. Then the binding/mapping for json to code can be help by `atc-azure-options`. It contains binding-models and configuration method's to help with the setup in a App-type ConfigureServices part.
+When working with IaC and `Atc.Snippets` teogether with some .NET code that uses `appsettings.json`, then the binding/mapping from json to code can be achieved by utilizing `Atc.Azure.Options`. This package contains binding-models and configuration method's to help with the setup in a Apps ConfigureServices method.
