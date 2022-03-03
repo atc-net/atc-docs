@@ -76,7 +76,7 @@ A properly formed Git commit subject line should always be able to complete the 
 Must be one of the following:
 
 |Type|Meaning|
-|-|-|
+|---|---|
 | **`build:`**    | Build related changes |
 | **`ci:`**       | CI related changes |
 | **`chore:`**    | Build process or auxiliary tool - changes |
