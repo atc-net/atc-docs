@@ -75,6 +75,8 @@ A properly formed Git commit subject line should always be able to complete the 
 
 Must be one of the following:
 
+#### Type options
+
 |Type|Meaning|
 |---|---|
 | build:    | Build related changes |
