@@ -84,9 +84,9 @@ Must be one of the following:
 | feat:     | A new feature |
 | fix:      | A bug fix |
 | perf:     | A code change that improves performance |
-| refactor: | A code change that neither fixes a - bug or adds a feature|
+| refactor: | A code change that neither fixes a - bug or adds a feature |
 | revert:   | Reverting things|
-| style:    | Markup, white-space, formatting, - missing semi-colons... |
+| style:    | Markup, white-space, formatting, - missing semi-colons |
 | test:     | Adding missing tests |
 
 ### Scope
