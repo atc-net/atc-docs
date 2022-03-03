@@ -71,7 +71,7 @@ A properly formed Git commit subject line should always be able to complete the 
 [optional footer]
 ```
 
-### **Types**
+### Types
 
 Must be one of the following:
 
